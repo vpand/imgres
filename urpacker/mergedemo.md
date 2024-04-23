@@ -6,5 +6,5 @@ graph TB
     C --> E[UraniumPacker]
     D --> E
     F[libPhoneVMP] --> E
-    E --Merge--> G[uraniumvm_apitest.pvmp]
+    E --Merge: zip/brotli--> G[uraniumvm_apitest.pvmp]
 ```
